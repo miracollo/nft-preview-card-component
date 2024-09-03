@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "outfit";
+  src: url("font/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  text-align: center;
+  font-family: "outfit";
+}
+
+section {
+  background-color: hsl(216, 50%, 16%);
+  margin-top: 200px;
+  margin-bottom: 80px;
+  margin-left: 650px;
+  margin-right: 650px;
+  padding-top: 30px;
+  border-radius: 15px;
+}
+
+img {
+  border-radius: 10px;
+  height: 40vh;
+  width: 85%;
+}
+
+h2 {
+  text-align: left;
+  color: hsl(0, 0%, 100%);
+  padding: 15px 20px 20px 30px;
+}
+
+.letter {
+  text-align: left;
+  padding: 15px 65px 20px 30px;
+  color: grey;
+}
+.svg-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px 20px 30px;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.svg-2 {
+  color: hsl(178, 100%, 50%);
+  display: flex;
+  gap: 1rem;
+}
+
+.svg-1 {
+  color: grey;
+  display: flex;
+  gap: 1rem;
+}
+.content {
+  text-align: left;
+  display: flex;
+  gap: 1rem;
+  padding: 15px 20px 30px 30px;
+}
+
+.content > p {
+  margin-top: 10px;
+  font-weight: 400;
+}
+.content > img {
+  width: 50px;
+  height: 50px;
+}
+
+.grey {
+  color: grey;
+}
+
+.white {
+  color: hsl(0, 0%, 100%);
+}
