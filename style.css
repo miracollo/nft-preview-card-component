@@ -1,6 +1,6 @@
 @font-face {
   font-family: "outfit";
-  src: url("font/outfit/Outfit-VariableFont_wght.ttf");
+  src: url("./font/outfit/Outfit-VariableFont_wght.ttf");
 }
 
 * {
@@ -41,6 +41,8 @@ h2 {
   text-align: left;
   padding: 15px 65px 20px 30px;
   color: grey;
+  font-weight: 600;
+  font-size: 18px;
 }
 .svg-container {
   display: flex;
@@ -78,8 +80,10 @@ h2 {
 
 .grey {
   color: grey;
+  font-weight: 600;
 }
 
 .white {
   color: hsl(0, 0%, 100%);
+  font-weight: 600;
 }
